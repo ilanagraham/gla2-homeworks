@@ -13,3 +13,95 @@
   flex-grow:1 ;
   flex-shrink: 1;
 }
+
+header {
+  background-color: black;
+  padding-top: 30px;
+  padding-bottom: 5px;
+}
+
+h1 {
+  color: yellow;
+  padding-left: 40px;
+  margin-top: -15px;
+}
+
+a {
+  display: flex;
+  color: white;
+  text-decoration: none;
+  justify-content:flex-end;
+  flex-wrap: wrap;
+}
+
+blockquote {
+  background-color: lightgrey;
+  font-style: italic;
+  font-size: 30px;
+  padding: 20px;
+  margin: auto;
+  margin-top: auto;
+  border-top: 5px solid yellow;
+  text-align: center;
+
+}
+
+header nav ul li:nth-of-type(1) {
+  font-weight: bold;
+}
+header nav ul li:nth-of-type(2) {
+  font-weight: bold;
+}
+aside {
+
+  /* text-align: right; */
+  border: 2px solid lightgrey;
+  color: black;
+  height: 400px;
+  width: 20px;
+  font-size: 20px;
+  /* align-items: flex-end; */
+  margin: 20px;
+  padding: 40px;
+  flex-shrink: 10px;
+  background-image: url("coworking.jpg");
+  }
+
+
+
+
+main div aside a {
+  color: black;
+  background-color: yellow;
+  text-align: center;
+  width: 200px;
+  padding: 10px 20px;
+}
+
+h2 {
+
+   font-size: 25px;
+}
+
+section {
+
+text-align: center;
+margin: 10px;
+font-size: 20px;
+}
+
+main section ul li a {
+
+  background-color: lightgrey;
+  width: 300px;
+  color: black;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 50px;
+  text-align: left;
+}
+footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
