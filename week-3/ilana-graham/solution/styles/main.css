@@ -12,6 +12,8 @@
   flex-basis: 100%;
   flex-grow:1 ;
   flex-shrink: 1;
+  list-style-type: none;
+
 }
 
 header {
@@ -30,8 +32,10 @@ a {
   display: flex;
   color: white;
   text-decoration: none;
-  justify-content:flex-end;
   flex-wrap: wrap;
+  justify-content:flex-end;
+  font-family: sans-serif;
+  margin-right: 20px;
 }
 
 blockquote {
@@ -52,6 +56,17 @@ header nav ul li:nth-of-type(1) {
 header nav ul li:nth-of-type(2) {
   font-weight: bold;
 }
+
+.hero {
+  justify-content: flex-end;
+  background-image: url("../../starter_code/startup_matchmaker/images/coworking.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 10px;
+
+
+}
 aside {
 
   /* text-align: right; */
@@ -64,23 +79,40 @@ aside {
   margin: 20px;
   padding: 40px;
   flex-shrink: 10px;
-  background-image: url("coworking.jpg");
+  background-color: rgba(255,255,255,0.6);
+  font-family: sans-serif;
+
   }
 
-
+.hero-statement {
+  max-width: 25%;
+  border: 1px solid #ccc;
+}
 
 
 main div aside a {
   color: black;
   background-color: yellow;
-  text-align: center;
-  width: 200px;
+  align: center;
+  width: 270px;
   padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 7px;
+  padding-right: 40px;
 }
 
+s {
+  color: grey;
+}
+
+span {
+  text-decoration: underline yellow;
+}
 h2 {
 
    font-size: 25px;
+   font-family: sans-serif;
+   font-weight: bold;
 }
 
 section {
@@ -88,20 +120,31 @@ section {
 text-align: center;
 margin: 10px;
 font-size: 20px;
+font-family: sans-serif;
+
+}
+
+.lower {
+  border-right: 1px solid lightgrey;
+  padding-right: 30px;
 }
 
 main section ul li a {
 
   background-color: lightgrey;
-  width: 300px;
+  width: 265px;
   color: black;
   font-weight: bold;
   padding: 10px 20px;
   margin: 50px;
-  text-align: left;
+  border-radius: 7px;
+
 }
+
+
 footer {
   background-color: black;
   color: white;
   padding: 20px;
+  font-family: sans-serif;
 }
